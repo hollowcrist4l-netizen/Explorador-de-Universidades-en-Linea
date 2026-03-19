@@ -1,0 +1,210 @@
+<html>
+<head>
+<link rel="stylesheet" href="style2.css">
+    <title>Explorador de Universidades en Linea</title>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="#" onclick="filtrar('todas')">Todas</a></li>
+        <li><a href="#" onclick="filtrar('publica')">Públicas</a></li>
+        <li><a href="#" onclick="filtrar('privada')">Privadas</a></li>
+        </ul>
+    </nav>
+<div class="arriba">
+        <center><h1><span style="color: rgb(217, 21, 21)">Explorador</span> de <span style="color: blue;">Universidades</span> en Linea</h1></center>
+</div>
+<div class="escrito">
+    <p align="center">Consulta programas, requisitos y ubicaciones de las Universidades mas cercanas a ti</p>
+</div>
+<div id="contenedor">
+        <div class="card universidad publica">
+    <div class="header">
+        <img src="img/logotec.jpg" alt="logo" class="logo">
+        <h2>Tecnologico Progreso Yucatán</h2>
+        <div class="category">Pública</div>
+    </div>
+    <img src="img/tecampus.jpg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong> Programa Académico:</strong></p>
+        <p class="program">Maestría en Administración de Negocios<p class="program">Electromecánica<p class="program">Sistemas computacionales<p class="program">Gestión empresarial<p class="program">Animación digital y efectos visuales<p class="program">Logística<p class="program">Energías renovables<p class="program">Administración</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=tecnologico%20progreso&zoom=10&maptype=roadmap"></iframe>
+    </div>
+</div>
+<div class="card universidad privada">
+    <div class="header">
+        <img src="img/humanitas.jpg" alt="logo" class="logo">
+        <h2>Universidad Humanitas</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campushumanitas.jpg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Alta dirección corporativa<p class="program">Contabilidad con especialidad en impuestos<p class="program">Derecho empresarial corporativo<p class="program">Derecho fiscal<p class="program">Derecho penal<p class="program">Educación<p class="program">Mercadotecnia<p class="program">Psicoterapia con un enfoque psicoanalítico</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1107.3477557439949!2d-89.69182578618141!3d21.006300657265065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567153d15c7715%3A0x5f3e61b5a89a4fac!2sUniversidad%20Humanitas%20Campus%20M%C3%A9rida!5e0!3m2!1ses-419!2smx!4v1773023183021!5m2!1ses-419!2smx"></iframe>
+    </div> 
+</div>
+<div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoMarista.jpeg" alt="logo" class="logo">
+        <h2>Universidad Marista</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/Maristacampus.jpg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Medicina (Médico Cirujano)<p class="program">Fisioterapia<p class="program">Derecho<p class="program">Administración<p class="program">Contaduría Pública<p class="program">Ingeniería en Sistemas Computacionales<p class="program">Psicología<p class="program">Negocios Internacionales<p class="program">Gestión de Recursos Humanos<p class="program">Ingeniería en Gestión Empresarial<p class="program">Comunicación Digital<p class="program">Arquitectura</p></p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29786.542453601272!2d-89.63764424029463!3d21.059965360562988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56767f4e0e703f%3A0x1ff8d5832d6dc0ad!2sUniversidad%20Marista%20de%20M%C3%A9rida%20A.C.!5e0!3m2!1ses-419!2smx!4v1773079383982!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad publica">
+    <div class="header">
+        <img src="img/logoUADY.jpeg" alt="logo" class="logo">
+        <h2>Universidad Autonoma de Yucatan</h2>
+        <div class="category">Pública</div>
+    </div>
+    <img src="img/campusUADY.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Actuaría<p class="program">Administración<p class="program">Administración de Tecnologías de Información<p class="program">Arqueología<p class="program">Arquitectura<p class="program">Artes Visuales<p class="program">Biología<p class="program">Biología Marina<p class="program">Ciencias de la Computación<p class="program">Cirujano Dentista<p class="program">Entre otras...</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59621.61635455394!2d-89.65511930970469!3d20.938414036669236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715ea53a46a3%3A0x32772278dfb5395!2sUniversidad%20Aut%C3%B3noma%20de%20Yucat%C3%A1n%20%7C%20UADY!5e0!3m2!1ses-419!2smx!4v1773080553343!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad publica">
+    <div class="header">
+        <img src="img/logoUTEM.jpeg" alt="logo" class="logo">
+        <h2>Universidad Tecnologica Metropolitana</h2>
+        <div class="category">Pública</div>
+    </div>
+    <img src="img/campusUTEM.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Ingeniería en Redes Inteligentes y Ciberseguridad<p class="program">Ingeniería en Desarrollo y Gestión de Software<p class="program">Ingeniería en Sistemas Productivos<p class="program">Ingeniería en Energías Renovables<p class="program">Ingeniería Mecatrónica<p class="program">Licenciatura en Innovación de Negocios y Mercadotecnia<p class="program">Licenciatura en Gestión y Desarrollo Turístico<p class="program">Licenciatura en Diseño Digital y Producción Audiovisual</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.350898645996!2d-89.6164944!3d20.938419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672270a784baf%3A0x764b40010695f0d9!2sUniversidad%20Tecnol%C3%B3gica%20Metropolitana!5e0!3m2!1ses-419!2smx!4v1773080392214!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoVIZCAYA.jpeg" alt="logo" class="logo">
+        <h2>Universidad VIZCAYA de las Americas</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campusVIZCAYA.jpg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Licenciatura en Administración de Empresas<p class="program">Licenciatura en Arquitectura<p class="program">Licenciatura en Gastronomía<p class="program">Licenciatura en Comercio Internacional y Aduanas<p class="program">Licenciatura en Contador Público<p class="program">Licenciatura en Criminología y Criminalística<p class="program">Licenciatura en Derecho<p class="program">Licenciatura en Psicología<p class="program">Licenciatura en Ciencias de la Educación</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7044791159815!2d-89.63484292564564!3d21.004479988613895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56713560ac90fb%3A0x7f499f974cb1c012!2sUniversidad%20Vizcaya%20de%20las%20Am%C3%A9ricas%20-%20M%C3%A9rida!5e0!3m2!1ses!2smx!4v1773079629308!5m2!1ses!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoUVM.jpeg" alt="logo" class="logo">
+        <h2>Universidad del Valle de México</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campusUVM.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Ingeniería Mecatrónica con Enfoque Automotriz<p class="program">Ingeniería en Sistemas Computacionales<p class="program">Nutrición<p class="program">Fisioterapia<p class="program">Psicología<p class="program">Cultura Física y Deporte<p class="program">Educación<p class="program">Relaciones Internacionales<p class="program">Finanzas y Banca<p class="program">Gastronomía</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.484354981428!2d-89.63397152564426!3d21.053308586936716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5675d10de6d489%3A0x4059adcb08de4a9e!2sUVM%20M%C3%A9rida%20-%20Universidad%20del%20Valle%20de%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1773080336706!5m2!1ses!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad publica">
+    <div class="header">
+        <img src="img/logoESAY.jpeg" alt="logo" class="logo">
+        <h2>Escuela Superior de Artes de Yucatán</h2>
+        <div class="category">Pública</div>
+    </div>
+    <img src="img/campusESAY.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Licenciatura Docencia de la Danza Clásica<p class="program">Licenciatura en Artes Musicales<p class="program">Licenciatura en Educación Artística<p class="program">Licenciatura en Teatro<p class="program">Maestría en Arte<p class="program">Maestría en Artes Musicales<p class="program">Maestría en Dirección de Escena<p class="program">Maestría en Producción y Enseñanza de las Artes Visuales</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.5736528266025!2d-89.61386499999999!3d20.96963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56731788edf73f%3A0xbfc11c6222236bc5!2sUniversidad%20de%20las%20Artes%20de%20Yucat%C3%A1n!5e0!3m2!1ses-419!2smx!4v1773795071230!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoANAHUAC.jpeg" alt="logo" class="logo">
+        <h2>Universidad Anáhuac</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campusANAHUAC.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Arquitectura<p class="program">Diseño Industrial<p class="program">Diseño Gráfico<p class="program">Medicina (Médico Cirujano)<p class="program">Odontología (Médico Cirujano Dentista)<p class="program">Administración de Negocios<p class="program">Finanzas y Contaduría Pública<p class="program">Ingeniería en Sistemas y Tecnologías de la Información<p class="program">Ingeniería Mecatrónica<p class="program">Entre otras...</p></p>
+        <p><strong>Ubicación</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.037973822907!2d-89.61550152564254!3d21.11105218494877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5675002a086dc3%3A0xe3923c605eb060a8!2sAnahuac!5e0!3m2!1ses!2smx!4v1773080689604!5m2!1ses!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoHARVARD.jpeg" alt="logo" class="logo">
+        <h2>Harvard</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campusHARVARD.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Literatura, Filosofía, Historia, Historia del Arte, Lengua y Literatura Francesa<p class="program">Economía, Gobierno, Ciencias Políticas, Sociología, Antropología<p class="program">Matemáticas, Física, Química, Biología, Astrofísica, Ciencias de la Tierra y Planetarias, Estadística<p class="program">Matemáticas Aplicadas, Ingeniería Biomédica, Ciencias de la Computación<p class="program">Ingeniería Eléctrica, Ciencia e Ingeniería Ambiental, Ciencia e Ingeniería de Materiales y Mecánica<p class="program">Escuela de Negocios, Administración de Empresas, Maestría en Gestión Emprendedora, <p class="program">Facultad de Derecho, Derecho, Maestría en Derecho Internacional<p class="program">Facultad de Medicina, Medicina</p></p>
+        <p><strong>Ubicacion</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.502498145206!2d-71.12082372469756!3d42.37444073419417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sUniversidad%20de%20Harvard!5e0!3m2!1ses!2smx!4v1773080140032!5m2!1ses!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad publica">
+    <div class="header">
+        <img src="img/logoUMSA.jpeg" alt="logo" class="logo">
+        <h2>Universidad Mesoamericana de San AgustinN</h2>
+        <div class="category">Pública</div>
+    </div>
+    <img src="img/campusUMSA.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Ingeniería Industrial<p class="program">Ingeniería en Gestión de Tecnologías de la Información<p class="program">Derecho<p class="program">Criminalística<p class="program">Ciencias Políticas y Gestión Pública<p class="program">Nutrición<p class="program">Fisioterapia y Rehabilitación<p class="program">Psicología</p></p>
+        <p><strong>Ubicacion</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.4097749790535!2d-89.62791!3d20.976205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdff83f63b6443%3A0xfef465338582081b!2sUNIVERSIDAD%20MESOAMERICANA%20DE%20SAN%20AGUSTIN!5e0!3m2!1ses-419!2smx!4v1773796136484!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+ <div class="card universidad privada">
+    <div class="header">
+        <img src="img/logoTECSOFT.jpeg" alt="logo" class="logo">
+        <h2>Tecnológico de Software</h2>
+        <div class="category">Privada</div>
+    </div>
+    <img src="img/campusTECSOFT.jpeg" alt="campus" class="campus-img">
+    <div class="content">
+        <p><strong>Programa Académico:</strong></p>
+        <p class="program">Desarrollo de Software y Negocios Digitales<p class="program">Marketing Digital<p class="program">Comunicación y Diseño<p class="program">Formación en Inteligencia Artificial<p class="program">Gestión de proyectos de tecnología</p></p>
+        <p><strong>Ubicacion</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8006500393553!2d-89.6127268249569!3d21.00062668064169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5677c7d60962c3%3A0x525658bf66e42185!2sTecnol%C3%B3gico%20de%20Software!5e0!3m2!1ses-419!2smx!4v1773798317476!5m2!1ses-419!2smx"></iframe>
+    </div>
+</div>
+</div>
+</div>
+<script>
+function filtrar(tipo) {
+    let universidades = document.getElementsByClassName("universidad");
+
+    for (let i = 0; i < universidades.length; i++) {
+
+        if (tipo === "todas") {
+            universidades[i].style.display = "block";
+
+        } else if (universidades[i].classList.contains(tipo)) {
+            universidades[i].style.display = "block";
+
+        } else {
+            universidades[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>
